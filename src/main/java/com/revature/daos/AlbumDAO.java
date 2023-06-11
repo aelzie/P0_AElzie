@@ -33,13 +33,13 @@ public class AlbumDAO implements AlbumDAOInterface
                         aDAO.getArtistById(rs.getInt("artist_id_fk"))
                 );
 
-                albumList.add(Album);
+                albumList.add(album);
             }
             return albumList;
         }
         catch(SQLException e)
         {
-            System.out.println("FAiled to get all albums");
+            System.out.println("Failed to get all albums");
             e.printStackTrace();
         }
         return null;

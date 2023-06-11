@@ -2,11 +2,11 @@ package com.revature.daos;
 
 import com.revature.models.Album;
 
-import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public interface AlbumDAOInterface
 {
     ArrayList<Album> getAllAlbums();
 
-    Album insertAlbum(Album alb)
+    Album insertAlbum(Album alb);
 }

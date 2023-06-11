@@ -1,9 +1,13 @@
 package com.revature;
 
+import com.revature.daos.AlbumDAO;
+import com.revature.daos.ArtistDAO;
+import com.revature.models.Album;
 import com.revature.utils.ConnectionUtil;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class Launcher
 {
@@ -16,6 +20,19 @@ public class Launcher
         catch(SQLException e)
         {
             System.out.println("Connection Failed");
+        }
+
+        ArtistDAO aDAO = new ArtistDAO();
+
+        System.out.println(aDAO.getArtistById(2));
+
+        AlbumDAO albumDAO = new AlbumDAO();
+
+        ArrayList<Album> albumArrayList = albumDAO.getAllAlbums();
+
+        for(Album a : albumArrayList)
+        {
+            System.out.println(a);
         }
     }
 }
