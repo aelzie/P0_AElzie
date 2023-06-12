@@ -8,5 +8,5 @@ public interface AlbumDAOInterface
 {
     ArrayList<Album> getAllAlbums();
 
-    Album insertAlbum(Album alb);
+    Album insertAlbum(Album album);
 }

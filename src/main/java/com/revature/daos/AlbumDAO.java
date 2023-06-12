@@ -48,21 +48,21 @@ public class AlbumDAO implements AlbumDAOInterface
     }
 
     @Override
-    public Album insertAlbum(Album alb)
+    public Album insertAlbum(Album album)
     {
         try(Connection conn = ConnectionUtil.getConnection())
         {
-            String sql = "INSERT INTO albums (album_name, top_song, artist_id_fk) VALUES (?, ?, ?)";
+            String sql = "INSERT INTO albums (album_name, top_song, artist_id) VALUES (?, ?, ?)";
 
             PreparedStatement ps = conn.prepareStatement(sql);
 
-            ps.setString(1, alb.getAlbum_name());
-            ps.setString(2, alb.getTop_song());
-            ps.setInt(3,alb.getArtist_id_fk());
+            ps.setString(1, album.getAlbum_name());
+            ps.setString(2, album.getTop_song());
+            ps.setInt(3,album.getArtist_id_fk());
 
-            ps.executeUpdate();
+            ps.execute();
 
-            return alb;
+            return album;
         }
         catch(SQLException e)
         {

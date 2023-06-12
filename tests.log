@@ -1,0 +1,194 @@
+254  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+317  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+351  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+358  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@42721fe{/,null,AVAILABLE}
+412  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@7d446ed1{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+414  [main] INFO  org.eclipse.jetty.server.Server - Started Server@21337f7b{STARTING}[11.0.15,sto=0] @676ms
+414  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+416  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+428  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+429  [main] INFO  io.javalin.Javalin - Javalin started in 176ms \o/
+191  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+250  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+282  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+290  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+347  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+349  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @755ms
+349  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+351  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+362  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+363  [main] INFO  io.javalin.Javalin - Javalin started in 172ms \o/
+14795 [JettyServerThreadPool-83] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+46712 [JettyServerThreadPool-50] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+235576 [JettyServerThreadPool-52] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+197  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+258  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+293  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+301  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+356  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+361  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @753ms
+361  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+363  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+370  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+371  [main] INFO  io.javalin.Javalin - Javalin started in 175ms \o/
+13720 [JettyServerThreadPool-83] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+278  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+357  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+404  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+414  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+470  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+472  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @867ms
+472  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+474  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+484  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+486  [main] INFO  io.javalin.Javalin - Javalin started in 209ms \o/
+146318 [JettyServerThreadPool-82] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+204  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+269  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+303  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+310  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+366  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+368  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @761ms
+368  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+374  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+381  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+382  [main] INFO  io.javalin.Javalin - Javalin started in 179ms \o/
+14992 [JettyServerThreadPool-83] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+183  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+243  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+276  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+283  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+335  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+337  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @706ms
+337  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+340  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+346  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+347  [main] INFO  io.javalin.Javalin - Javalin started in 164ms \o/
+10167 [JettyServerThreadPool-82] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+187  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+247  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+279  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+286  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+340  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+342  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @720ms
+342  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+344  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+354  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+355  [main] INFO  io.javalin.Javalin - Javalin started in 169ms \o/
+12669 [JettyServerThreadPool-83] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+195  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+260  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+294  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+301  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+358  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+360  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @755ms
+360  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+362  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+372  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+374  [main] INFO  io.javalin.Javalin - Javalin started in 179ms \o/
+3349 [JettyServerThreadPool-82] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/artists
+3374 [JettyServerThreadPool-82] INFO  c.revature.utils.JavalinAppConfig - Returned from <handleGetAll> : 
+5703768 [JettyServerThreadPool-50] INFO  c.revature.utils.JavalinAppConfig - GET request has been sent to http://localhost:7070/albums
+5703902 [JettyServerThreadPool-50] INFO  c.revature.utils.JavalinAppConfig - Returned from <handleGetAll> : 
+189  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+252  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+286  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+292  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+341  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+343  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @797ms
+343  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+345  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+355  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+356  [main] INFO  io.javalin.Javalin - Javalin started in 167ms \o/
+17252 [JettyServerThreadPool-83] INFO  c.revature.utils.JavalinAppConfig - POST request has been sent to http://localhost:7070/albums
+193  [main] INFO  io.javalin.Javalin - Starting Javalin ...
+254  [main] INFO  org.eclipse.jetty.server.Server - jetty-11.0.15; built: 2023-04-11T18:37:53.775Z; git: 5bc5e562c8d05c5862505aebe5cf83a61bdbcb96; jvm 20.0.1+9-29
+284  [main] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+291  [main] INFO  o.e.j.server.handler.ContextHandler - Started i.j.j.@447a020{/,null,AVAILABLE}
+346  [main] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@1b75c2e3{HTTP/1.1, (http/1.1)}{0.0.0.0:7070}
+348  [main] INFO  org.eclipse.jetty.server.Server - Started Server@14fc1f0{STARTING}[11.0.15,sto=0] @729ms
+348  [main] INFO  io.javalin.Javalin - 
+       __                  ___          ______
+      / /___ __   ______ _/ (_)___     / ____/
+ __  / / __ `/ | / / __ `/ / / __ \   /___ \
+/ /_/ / /_/ /| |/ / /_/ / / / / / /  ____/ /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/  /_____/
+
+       https://javalin.io/documentation
+
+350  [main] INFO  io.javalin.Javalin - Listening on http://localhost:7070/
+360  [main] INFO  io.javalin.Javalin - You are running Javalin 5.6.0 (released June 10, 2023).
+362  [main] INFO  io.javalin.Javalin - Javalin started in 169ms \o/
+4599 [JettyServerThreadPool-82] INFO  c.revature.utils.JavalinAppConfig - POST request has been sent to http://localhost:7070/albums

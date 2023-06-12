@@ -25,7 +25,18 @@ public class AlbumController
 
     public void handleCreate(Context ctx)
     {
-        Album albumToBeAdded = ctx.bodyAsClass(Album.class);
+        Album album = ctx.bodyAsClass(Album.class);
+        Album result = albumService.insertAlbum(album);
+
+        if (result != null)
+        {
+            ctx.status(201);
+            ctx.json(result);
+        } else
+        {
+            ctx.status(400);
+            logger.warn("<handleCreate> method failed (AlbumController)");
+        }
     }
 
 

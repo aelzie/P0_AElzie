@@ -61,7 +61,7 @@ public class ArtistDAO implements ArtistDAOInterface
         }
         catch(SQLException e)
         {
-            System.out.println("error getting Role");
+            System.out.println("Get By Id Failed");
             e.printStackTrace();
         }
 
