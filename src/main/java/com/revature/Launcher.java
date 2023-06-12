@@ -4,6 +4,7 @@ import com.revature.daos.AlbumDAO;
 import com.revature.daos.ArtistDAO;
 import com.revature.models.Album;
 import com.revature.utils.ConnectionUtil;
+import com.revature.utils.JavalinAppConfig;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -34,5 +35,9 @@ public class Launcher
         {
             System.out.println(a);
         }
+
+        JavalinAppConfig app = new JavalinAppConfig();
+
+        app.start(7070);
     }
 }

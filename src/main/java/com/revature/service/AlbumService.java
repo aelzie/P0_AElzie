@@ -8,6 +8,8 @@ import java.util.ArrayList;
 
 public class AlbumService
 {
+    private final AlbumDAOInterface accountDAO = new AlbumDAO();
+    public ArrayList<Album> handleGetAllAccounts() {return accountDAO.getAllAlbums();}
     private final AlbumDAOInterface albumDAO = new AlbumDAO();
 
     public ArrayList<Album> getAllAlbums()

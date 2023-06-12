@@ -7,9 +7,34 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class ArtistDAO implements ArtistDAOInterface
 {
+    public ArrayList<Artist> getAllArtists() {
+        ArrayList<Artist> artists = new ArrayList<>();
+
+        try(Connection conn = ConnectionUtil.getConnection()) {
+
+            String sql = "SELECT * FROM artists";
+            PreparedStatement ps = conn.prepareStatement(sql);
+            ResultSet resultSet = ps.executeQuery();
+
+            while(resultSet.next()) {
+                int artistId = resultSet.getInt("artist_id");
+                String artistName = resultSet.getString("artist_name");
+
+                Artist artist = new Artist(artistId, artistName);
+                artists.add(artist);
+            }
+            return artists;
+
+        } catch(SQLException e) {
+            System.out.println("Get All Artists Failed");
+            e.printStackTrace();
+        }
+        return new ArrayList<>();
+    }
 
     @Override
     public Artist getArtistById(int id)

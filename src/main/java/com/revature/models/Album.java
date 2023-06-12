@@ -38,6 +38,14 @@ public class Album
         this.artist_id_fk = artist_id_fk;
     }
 
+    public Album(int album_id, String album_name, String top_song, Artist artist, int artist_id_fk) {
+        this.album_id = album_id;
+        this.album_name = album_name;
+        this.top_song = top_song;
+        this.artist = artist;
+        this.artist_id_fk = artist_id_fk;
+    }
+
     public int getAlbum_id()
     {
         return album_id;

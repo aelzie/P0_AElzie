@@ -4,7 +4,7 @@ import com.revature.models.Album;
 import com.revature.service.AlbumService;
 import io.javalin.http.Context;
 
-import java.util.ArrayList;
+import static com.revature.utils.JavalinAppConfig.logger;
 
 public class AlbumController
 {
@@ -12,10 +12,16 @@ public class AlbumController
 
     public void handleGetAll(Context ctx)
     {
-        ArrayList<Album> albums = albumService.getAllAlbums();
-
-        ctx.json(albums);
-    }
+        try
+        {
+            ctx.json(albumService.getAllAlbums());
+            ctx.status(200);
+            logger.info("Returned from <handleGetAll> : ");
+        } catch (Exception e) {
+            logger.error(e.getMessage());
+            throw new RuntimeException(e);
+        }
+}
 
     public void handleCreate(Context ctx)
     {

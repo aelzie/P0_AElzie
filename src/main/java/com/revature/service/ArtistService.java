@@ -40,4 +40,8 @@ public class ArtistService
         }
         return false;
     }
+
+    public Object getAllArtists() {
+        return artistDAO.getAllArtists();
+    }
 }
